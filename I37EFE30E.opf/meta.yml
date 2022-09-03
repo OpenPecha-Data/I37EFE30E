@@ -1,477 +1,951 @@
 id: I37EFE30E
+legacy_id: P008105
+ocr_import_info:
+  bdrc_scan_id: W4CZ45313
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-26T21:18:02'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-26T21:34:35+00:00'
-last_modified: '2022-06-09T04:32:10.843543+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-03T18:34:21.373563+00:00'
+last_modified: 2022-09-04 02:59:17.623285
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W4CZ45313
-  title: བཀའ་འགྱུར། ༼ཧེ་མིས་བྲིས་མ།༽
-  author: ''
+  id: http://purl.bdrc.io/resource/W4CZ45313
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    455F:
-      image_group_id: I4CZ75258
-      title: Volume 1 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 513
-      order: 1
-      base_file: 455F.txt
-    13D2:
-      image_group_id: I4CZ75259
-      title: Volume 2 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 412
-      order: 2
-      base_file: 13D2.txt
-    2B0D:
-      image_group_id: I4CZ75260
-      title: Volume 3 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 855
-      order: 3
-      base_file: 2B0D.txt
-    '6765':
-      image_group_id: I4CZ75261
-      title: Volume 4 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 917
-      order: 4
-      base_file: 6765.txt
-    6CBD:
-      image_group_id: I4CZ75262
-      title: Volume 5 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 776
-      order: 5
-      base_file: 6CBD.txt
-    '8049':
-      image_group_id: I4CZ75263
-      title: Volume 6 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 937
-      order: 6
-      base_file: 8049.txt
-    BB0B:
-      image_group_id: I4CZ75264
-      title: Volume 7 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 903
-      order: 7
-      base_file: BB0B.txt
-    CE99:
-      image_group_id: I4CZ75265
-      title: Volume 8 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 674
-      order: 8
-      base_file: CE99.txt
-    0E03:
-      image_group_id: I4CZ75266
-      title: Volume 9 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 659
-      order: 9
-      base_file: 0E03.txt
-    6E9F:
-      image_group_id: I4CZ75267
-      title: Volume 10 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 596
-      order: 10
-      base_file: 6E9F.txt
-    DE8A:
-      image_group_id: I4CZ75268
-      title: Volume 11 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 664
-      order: 11
-      base_file: DE8A.txt
-    '3728':
-      image_group_id: I4CZ75269
-      title: Volume 12 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 559
-      order: 12
-      base_file: 3728.txt
-    4E26:
-      image_group_id: I4CZ75270
-      title: Volume 13 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 921
-      order: 13
-      base_file: 4E26.txt
-    795B:
-      image_group_id: I4CZ75271
-      title: Volume 14 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 1031
-      order: 14
-      base_file: 795B.txt
-    ED2A:
-      image_group_id: I4CZ75272
-      title: Volume 15 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 933
-      order: 15
-      base_file: ED2A.txt
-    C694:
-      image_group_id: I4CZ75273
-      title: Volume 16 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 0
-      order: 16
-      base_file: C694.txt
-    F8E8:
-      image_group_id: I4CZ75274
-      title: Volume 17 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 742
-      order: 17
-      base_file: F8E8.txt
-    '1863':
-      image_group_id: I4CZ75275
-      title: Volume 18 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 934
-      order: 18
-      base_file: 1863.txt
-    74BA:
-      image_group_id: I4CZ75276
-      title: Volume 19 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 1161
-      order: 19
-      base_file: 74BA.txt
-    BC42:
-      image_group_id: I4CZ75277
-      title: Volume 20 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 957
-      order: 20
-      base_file: BC42.txt
-    '4674':
-      image_group_id: I4CZ75278
-      title: Volume 21 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 898
-      order: 21
-      base_file: 4674.txt
-    B558:
-      image_group_id: I4CZ75279
-      title: Volume 22 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 966
-      order: 22
-      base_file: B558.txt
-    4FC4:
-      image_group_id: I4CZ75280
-      title: Volume 23 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 1148
-      order: 23
-      base_file: 4FC4.txt
-    DB20:
-      image_group_id: I4CZ75281
-      title: Volume 24 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 994
-      order: 24
-      base_file: DB20.txt
-    3F89:
-      image_group_id: I4CZ75282
-      title: Volume 25 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 762
-      order: 25
-      base_file: 3F89.txt
-    9B8B:
-      image_group_id: I4CZ75283
-      title: Volume 26 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 754
-      order: 26
-      base_file: 9B8B.txt
-    819D:
-      image_group_id: I4CZ75284
-      title: Volume 27 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 828
-      order: 27
-      base_file: 819D.txt
-    EA9B:
-      image_group_id: I4CZ75285
-      title: Volume 28 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 778
-      order: 28
-      base_file: EA9B.txt
-    E33A:
-      image_group_id: I4CZ75286
-      title: Volume 29 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 575
-      order: 29
-      base_file: E33A.txt
-    F777:
-      image_group_id: I4CZ75287
-      title: Volume 30 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 668
-      order: 30
-      base_file: F777.txt
-    14A9:
-      image_group_id: I4CZ75288
-      title: Volume 31 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 723
-      order: 31
-      base_file: 14A9.txt
-    F342:
-      image_group_id: I4CZ75289
-      title: Volume 32 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 0
-      order: 32
-      base_file: F342.txt
-    '4228':
-      image_group_id: I4CZ75290
-      title: Volume 33 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 1102
-      order: 33
-      base_file: 4228.txt
-    0AE4:
-      image_group_id: I4CZ75291
-      title: Volume 34 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 1140
-      order: 34
-      base_file: 0AE4.txt
-    0D07:
-      image_group_id: I4CZ75292
-      title: Volume 35 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 995
-      order: 35
-      base_file: 0D07.txt
-    '4021':
-      image_group_id: I4CZ75293
-      title: Volume 36 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 1174
-      order: 36
-      base_file: 4021.txt
-    90C2:
-      image_group_id: I4CZ75294
-      title: Volume 37 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 0
-      order: 37
-      base_file: 90C2.txt
-    70A6:
-      image_group_id: I4CZ75295
-      title: Volume 38 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 0
-      order: 38
-      base_file: 70A6.txt
-    27C2:
-      image_group_id: I4CZ75296
-      title: Volume 39 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 507
-      order: 39
-      base_file: 27C2.txt
-    3A46:
-      image_group_id: I4CZ75297
-      title: Volume 40 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 490
-      order: 40
-      base_file: 3A46.txt
-    '3720':
-      image_group_id: I4CZ75298
-      title: Volume 41 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 871
-      order: 41
-      base_file: 3720.txt
-    F625:
-      image_group_id: I4CZ75299
-      title: Volume 42 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 589
-      order: 42
-      base_file: F625.txt
-    '4360':
-      image_group_id: I4CZ75300
-      title: Volume 43 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 318
-      order: 43
-      base_file: 4360.txt
-    '6246':
-      image_group_id: I4CZ75301
-      title: Volume 44 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 541
-      order: 44
-      base_file: 6246.txt
-    2E1F:
-      image_group_id: I4CZ75302
-      title: Volume 45 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 0
-      order: 45
-      base_file: 2E1F.txt
-    A415:
-      image_group_id: I4CZ75303
-      title: Volume 46 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 432
-      order: 46
-      base_file: A415.txt
-    D574:
-      image_group_id: I4CZ75304
-      title: Volume 47 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 580
-      order: 47
-      base_file: D574.txt
-    0D1B:
-      image_group_id: I4CZ75305
-      title: Volume 48 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 380
-      order: 48
-      base_file: 0D1B.txt
-    8A1A:
-      image_group_id: I4CZ75306
-      title: Volume 49 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 528
-      order: 49
-      base_file: 8A1A.txt
-    E45B:
-      image_group_id: I4CZ75307
-      title: Volume 50 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 484
-      order: 50
-      base_file: E45B.txt
-    03C0:
-      image_group_id: I4CZ75308
-      title: Volume 51 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 500
-      order: 51
-      base_file: 03C0.txt
-    EB7D:
-      image_group_id: I4CZ75309
-      title: Volume 52 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 528
-      order: 52
-      base_file: EB7D.txt
-    F0F6:
-      image_group_id: I4CZ75310
-      title: Volume 53 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 550
-      order: 53
-      base_file: F0F6.txt
-    E282:
-      image_group_id: I4CZ75311
-      title: Volume 54 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 677
-      order: 54
-      base_file: E282.txt
-    B9C0:
-      image_group_id: I4CZ75312
-      title: Volume 55 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 602
-      order: 55
-      base_file: B9C0.txt
-    '7828':
-      image_group_id: I4CZ75313
-      title: Volume 56 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 548
-      order: 56
-      base_file: 7828.txt
-    A71B:
-      image_group_id: I4CZ75314
-      title: Volume 57 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 460
-      order: 57
-      base_file: A71B.txt
-    743C:
-      image_group_id: I4CZ75315
-      title: Volume 58 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 545
-      order: 58
-      base_file: 743C.txt
-    FA88:
-      image_group_id: I4CZ75316
-      title: Volume 59 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 645
-      order: 59
-      base_file: FA88.txt
-    9D80:
-      image_group_id: I4CZ75317
-      title: Volume 60 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 439
-      order: 60
-      base_file: 9D80.txt
-    86D7:
-      image_group_id: I4CZ75318
-      title: Volume 61 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 684
-      order: 61
-      base_file: 86D7.txt
-    69FB:
-      image_group_id: I4CZ75319
-      title: Volume 62 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 512
-      order: 62
-      base_file: 69FB.txt
-    B4E9:
-      image_group_id: I4CZ75320
-      title: Volume 63 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 614
-      order: 63
-      base_file: B4E9.txt
-    '8631':
-      image_group_id: I4CZ75321
-      title: Volume 64 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 625
-      order: 64
-      base_file: 8631.txt
-    B700:
-      image_group_id: I4CZ75322
-      title: Volume 65 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 538
-      order: 65
-      base_file: B700.txt
-    13B8:
-      image_group_id: I4CZ75323
-      title: Volume 66 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 546
-      order: 66
-      base_file: 13B8.txt
-    BCC2:
-      image_group_id: I4CZ75324
-      title: Volume 67 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 0
-      order: 67
-      base_file: BCC2.txt
-    DF1C:
-      image_group_id: I4CZ75325
-      title: Volume 68 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 80
-      order: 68
-      base_file: DF1C.txt
-    4AA8:
-      image_group_id: I4CZ75326
-      title: Volume 69 of bka' 'gyur/ (he mis bris ma/)
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW4CZ45313
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: བཀའ་འགྱུར། ༼ཧེ་མིས་བྲིས་མ།༽
+statistics:
+  ocr_word_mean_confidence_index: 0.759540588406329
+  ocr_word_median_confidence_index: 0.800000011920929
+quality: null
+bases:
+  I4CZ75326:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75326
       total_pages: 646
-      order: 69
-      base_file: 4AA8.txt
-    '5494':
-      image_group_id: I4CZ75327
-      title: Volume 70 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 542
-      order: 70
-      base_file: 5494.txt
-    AE41:
-      image_group_id: I4CZ75328
-      title: Volume 71 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 0
-      order: 71
-      base_file: AE41.txt
-    0BBE:
-      image_group_id: I4CZ75329
-      title: Volume 72 of bka' 'gyur/ (he mis bris ma/)
+      volume_number: 69
+      volume_pages_bdrc_intro: 2
+    order: 69
+    base_file: I4CZ75326.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7760293590961795
+    legacy_id: v069
+  I4CZ75287:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75287
+      total_pages: 668
+      volume_number: 30
+      volume_pages_bdrc_intro: 2
+    order: 30
+    base_file: I4CZ75287.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.800000011920929
+      ocr_word_mean_confidence_index: 0.7636707380614225
+    legacy_id: v030
+  I4CZ75305:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75305
+      total_pages: 380
+      volume_number: 48
+      volume_pages_bdrc_intro: 2
+    order: 48
+    base_file: I4CZ75305.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.778037397852737
+    legacy_id: v048
+  I4CZ75260:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75260
+      total_pages: 855
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I4CZ75260.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7734168670868677
+    legacy_id: v003
+  I4CZ75290:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75290
+      total_pages: 1102
+      volume_number: 33
+      volume_pages_bdrc_intro: 2
+    order: 33
+    base_file: I4CZ75290.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7816638321615789
+    legacy_id: v033
+  I4CZ75298:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75298
+      total_pages: 871
+      volume_number: 41
+      volume_pages_bdrc_intro: 2
+    order: 41
+    base_file: I4CZ75298.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7721613847369201
+    legacy_id: v041
+  I4CZ75315:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75315
+      total_pages: 545
+      volume_number: 58
+      volume_pages_bdrc_intro: 2
+    order: 58
+    base_file: I4CZ75315.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.7565563003432466
+    legacy_id: v058
+  I4CZ75310:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75310
+      total_pages: 550
+      volume_number: 53
+      volume_pages_bdrc_intro: 2
+    order: 53
+    base_file: I4CZ75310.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7676317153733412
+    legacy_id: v053
+  I4CZ75264:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75264
+      total_pages: 903
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    order: 7
+    base_file: I4CZ75264.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.716536121019679
+    legacy_id: v007
+  I4CZ75275:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75275
+      total_pages: 934
+      volume_number: 18
+      volume_pages_bdrc_intro: 2
+    order: 18
+    base_file: I4CZ75275.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7799999713897705
+      ocr_word_mean_confidence_index: 0.7404132009093971
+    legacy_id: v018
+  I4CZ75329:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75329
       total_pages: 625
-      order: 72
-      base_file: 0BBE.txt
-    '4344':
-      image_group_id: I4CZ75330
-      title: Volume 73 of bka' 'gyur/ (he mis bris ma/)
+      volume_number: 72
+      volume_pages_bdrc_intro: 2
+    order: 72
+    base_file: I4CZ75329.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7857590098797914
+    legacy_id: v072
+  I4CZ75276:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75276
+      total_pages: 1161
+      volume_number: 19
+      volume_pages_bdrc_intro: 2
+    order: 19
+    base_file: I4CZ75276.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.7445182972798671
+    legacy_id: v019
+  I4CZ75284:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75284
+      total_pages: 828
+      volume_number: 27
+      volume_pages_bdrc_intro: 2
+    order: 27
+    base_file: I4CZ75284.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7655965580611546
+    legacy_id: v027
+  I4CZ75296:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75296
+      total_pages: 507
+      volume_number: 39
+      volume_pages_bdrc_intro: 2
+    order: 39
+    base_file: I4CZ75296.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7871341611480671
+    legacy_id: v039
+  I4CZ75279:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75279
+      total_pages: 966
+      volume_number: 22
+      volume_pages_bdrc_intro: 2
+    order: 22
+    base_file: I4CZ75279.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7699999809265137
+      ocr_word_mean_confidence_index: 0.7277484227339821
+    legacy_id: v022
+  I4CZ75334:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75334
+      total_pages: 592
+      volume_number: 77
+      volume_pages_bdrc_intro: 2
+    order: 77
+    base_file: I4CZ75334.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7819337136518221
+    legacy_id: v077
+  I4CZ75293:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75293
+      total_pages: 1174
+      volume_number: 36
+      volume_pages_bdrc_intro: 2
+    order: 36
+    base_file: I4CZ75293.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.769108607874278
+    legacy_id: v036
+  I4CZ75318:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75318
+      total_pages: 684
+      volume_number: 61
+      volume_pages_bdrc_intro: 2
+    order: 61
+    base_file: I4CZ75318.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7646865030482324
+    legacy_id: v061
+  I4CZ75330:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75330
       total_pages: 649
-      order: 73
-      base_file: 4344.txt
-    1D92:
-      image_group_id: I4CZ75331
-      title: Volume 74 of bka' 'gyur/ (he mis bris ma/)
-      total_pages: 0
-      order: 74
-      base_file: 1D92.txt
-    484C:
-      image_group_id: I4CZ75332
-      title: Volume 75 of bka' 'gyur/ (he mis bris ma/)
+      volume_number: 73
+      volume_pages_bdrc_intro: 2
+    order: 73
+    base_file: I4CZ75330.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8399999737739563
+      ocr_word_mean_confidence_index: 0.785877303188984
+    legacy_id: v073
+  I4CZ75282:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75282
+      total_pages: 762
+      volume_number: 25
+      volume_pages_bdrc_intro: 2
+    order: 25
+    base_file: I4CZ75282.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7842118085303534
+    legacy_id: v025
+  I4CZ75321:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75321
+      total_pages: 625
+      volume_number: 64
+      volume_pages_bdrc_intro: 2
+    order: 64
+    base_file: I4CZ75321.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7692134695805858
+    legacy_id: v064
+  I4CZ75322:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75322
+      total_pages: 538
+      volume_number: 65
+      volume_pages_bdrc_intro: 2
+    order: 65
+    base_file: I4CZ75322.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.800000011920929
+      ocr_word_mean_confidence_index: 0.7624372662895027
+    legacy_id: v065
+  I4CZ75341:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75341
+      total_pages: 649
+      volume_number: 84
+      volume_pages_bdrc_intro: 2
+    order: 84
+    base_file: I4CZ75341.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7700385703937258
+    legacy_id: v084
+  I4CZ75313:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75313
+      total_pages: 548
+      volume_number: 56
+      volume_pages_bdrc_intro: 2
+    order: 56
+    base_file: I4CZ75313.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8399999737739563
+      ocr_word_mean_confidence_index: 0.7738358381510038
+    legacy_id: v056
+  I4CZ75311:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75311
+      total_pages: 677
+      volume_number: 54
+      volume_pages_bdrc_intro: 2
+    order: 54
+    base_file: I4CZ75311.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.777426974724318
+    legacy_id: v054
+  I4CZ75277:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75277
+      total_pages: 957
+      volume_number: 20
+      volume_pages_bdrc_intro: 2
+    order: 20
+    base_file: I4CZ75277.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7699999809265137
+      ocr_word_mean_confidence_index: 0.7319998869413411
+    legacy_id: v020
+  I4CZ75314:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75314
+      total_pages: 460
+      volume_number: 57
+      volume_pages_bdrc_intro: 2
+    order: 57
+    base_file: I4CZ75314.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.699999988079071
+      ocr_word_mean_confidence_index: 0.666502431276936
+    legacy_id: v057
+  I4CZ75265:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75265
+      total_pages: 674
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    order: 8
+    base_file: I4CZ75265.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.800000011920929
+      ocr_word_mean_confidence_index: 0.7467082057945809
+    legacy_id: v008
+  I4CZ75292:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75292
+      total_pages: 995
+      volume_number: 35
+      volume_pages_bdrc_intro: 2
+    order: 35
+    base_file: I4CZ75292.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7880246698516827
+    legacy_id: v035
+  I4CZ75339:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75339
+      total_pages: 694
+      volume_number: 82
+      volume_pages_bdrc_intro: 2
+    order: 82
+    base_file: I4CZ75339.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.800000011920929
+      ocr_word_mean_confidence_index: 0.7623655450046122
+    legacy_id: v082
+  I4CZ75303:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75303
+      total_pages: 432
+      volume_number: 46
+      volume_pages_bdrc_intro: 2
+    order: 46
+    base_file: I4CZ75303.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7799999713897705
+      ocr_word_mean_confidence_index: 0.7415603936879357
+    legacy_id: v046
+  I4CZ75271:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75271
+      total_pages: 1031
+      volume_number: 14
+      volume_pages_bdrc_intro: 2
+    order: 14
+    base_file: I4CZ75271.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7633889625444296
+    legacy_id: v014
+  I4CZ75291:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75291
+      total_pages: 1140
+      volume_number: 34
+      volume_pages_bdrc_intro: 2
+    order: 34
+    base_file: I4CZ75291.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8799999952316284
+      ocr_word_mean_confidence_index: 0.8225748649803503
+    legacy_id: v034
+  I4CZ75288:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75288
+      total_pages: 723
+      volume_number: 31
+      volume_pages_bdrc_intro: 2
+    order: 31
+    base_file: I4CZ75288.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7718868355636842
+    legacy_id: v031
+  I4CZ75300:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75300
+      total_pages: 318
+      volume_number: 43
+      volume_pages_bdrc_intro: 2
+    order: 43
+    base_file: I4CZ75300.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7612810207435413
+    legacy_id: v043
+  I4CZ75274:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75274
+      total_pages: 742
+      volume_number: 17
+      volume_pages_bdrc_intro: 2
+    order: 17
+    base_file: I4CZ75274.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7565477562806879
+    legacy_id: v017
+  I4CZ75272:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75272
+      total_pages: 933
+      volume_number: 15
+      volume_pages_bdrc_intro: 2
+    order: 15
+    base_file: I4CZ75272.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.800000011920929
+      ocr_word_mean_confidence_index: 0.7548737189798039
+    legacy_id: v015
+  I4CZ75280:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75280
+      total_pages: 1148
+      volume_number: 23
+      volume_pages_bdrc_intro: 2
+    order: 23
+    base_file: I4CZ75280.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7599999904632568
+      ocr_word_mean_confidence_index: 0.7247741175170346
+    legacy_id: v023
+  I4CZ75335:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75335
+      total_pages: 683
+      volume_number: 78
+      volume_pages_bdrc_intro: 2
+    order: 78
+    base_file: I4CZ75335.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7760638308039725
+    legacy_id: v078
+  I4CZ75268:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75268
+      total_pages: 664
+      volume_number: 11
+      volume_pages_bdrc_intro: 2
+    order: 11
+    base_file: I4CZ75268.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.7229608022257824
+    legacy_id: v011
+  I4CZ75312:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75312
+      total_pages: 602
+      volume_number: 55
+      volume_pages_bdrc_intro: 2
+    order: 55
+    base_file: I4CZ75312.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7761231392986511
+    legacy_id: v055
+  I4CZ75323:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75323
+      total_pages: 546
+      volume_number: 66
+      volume_pages_bdrc_intro: 2
+    order: 66
+    base_file: I4CZ75323.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7699999809265137
+      ocr_word_mean_confidence_index: 0.722505513731446
+    legacy_id: v066
+  I4CZ75320:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75320
+      total_pages: 614
+      volume_number: 63
+      volume_pages_bdrc_intro: 2
+    order: 63
+    base_file: I4CZ75320.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8399999737739563
+      ocr_word_mean_confidence_index: 0.7869647362060611
+    legacy_id: v063
+  I4CZ75281:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75281
+      total_pages: 994
+      volume_number: 24
+      volume_pages_bdrc_intro: 2
+    order: 24
+    base_file: I4CZ75281.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7651693800715197
+    legacy_id: v024
+  I4CZ75262:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75262
+      total_pages: 776
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I4CZ75262.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.800000011920929
+      ocr_word_mean_confidence_index: 0.761697744416149
+    legacy_id: v005
+  I4CZ75299:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75299
+      total_pages: 589
+      volume_number: 42
+      volume_pages_bdrc_intro: 2
+    order: 42
+    base_file: I4CZ75299.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7756090693892352
+    legacy_id: v042
+  I4CZ75332:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75332
       total_pages: 714
-      order: 75
-      base_file: 484C.txt
-    5F49:
-      image_group_id: I4CZ75333
-      title: Volume 76 of bka' 'gyur/ (he mis bris ma/)
+      volume_number: 75
+      volume_pages_bdrc_intro: 2
+    order: 75
+    base_file: I4CZ75332.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.768101901093629
+    legacy_id: v075
+  I4CZ75259:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75259
+      total_pages: 412
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I4CZ75259.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7860344399434458
+    legacy_id: v002
+  I4CZ75266:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75266
+      total_pages: 659
+      volume_number: 9
+      volume_pages_bdrc_intro: 2
+    order: 9
+    base_file: I4CZ75266.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7670527742638972
+    legacy_id: v009
+  I4CZ75337:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75337
+      total_pages: 706
+      volume_number: 80
+      volume_pages_bdrc_intro: 2
+    order: 80
+    base_file: I4CZ75337.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.800000011920929
+      ocr_word_mean_confidence_index: 0.7576550721446346
+    legacy_id: v080
+  I4CZ75340:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75340
+      total_pages: 695
+      volume_number: 83
+      volume_pages_bdrc_intro: 2
+    order: 83
+    base_file: I4CZ75340.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.7520880688594789
+    legacy_id: v083
+  I4CZ75285:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75285
+      total_pages: 778
+      volume_number: 28
+      volume_pages_bdrc_intro: 2
+    order: 28
+    base_file: I4CZ75285.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7704372699290112
+    legacy_id: v028
+  I4CZ75261:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75261
+      total_pages: 917
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I4CZ75261.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.756615671527726
+    legacy_id: v004
+  I4CZ75308:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75308
+      total_pages: 500
+      volume_number: 51
+      volume_pages_bdrc_intro: 2
+    order: 51
+    base_file: I4CZ75308.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7799999713897705
+      ocr_word_mean_confidence_index: 0.743045333220745
+    legacy_id: v051
+  I4CZ75297:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75297
+      total_pages: 490
+      volume_number: 40
+      volume_pages_bdrc_intro: 2
+    order: 40
+    base_file: I4CZ75297.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8399999737739563
+      ocr_word_mean_confidence_index: 0.7879716260878534
+    legacy_id: v040
+  I4CZ75269:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75269
+      total_pages: 559
+      volume_number: 12
+      volume_pages_bdrc_intro: 2
+    order: 12
+    base_file: I4CZ75269.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7599999904632568
+      ocr_word_mean_confidence_index: 0.7223718811248414
+    legacy_id: v012
+  I4CZ75283:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75283
+      total_pages: 754
+      volume_number: 26
+      volume_pages_bdrc_intro: 2
+    order: 26
+    base_file: I4CZ75283.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8500000238418579
+      ocr_word_mean_confidence_index: 0.7979347148513883
+    legacy_id: v026
+  I4CZ75263:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75263
+      total_pages: 937
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    order: 6
+    base_file: I4CZ75263.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.7116993200346251
+    legacy_id: v006
+  I4CZ75307:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75307
+      total_pages: 484
+      volume_number: 50
+      volume_pages_bdrc_intro: 2
+    order: 50
+    base_file: I4CZ75307.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.7645030529377295
+    legacy_id: v050
+  I4CZ75270:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75270
+      total_pages: 921
+      volume_number: 13
+      volume_pages_bdrc_intro: 2
+    order: 13
+    base_file: I4CZ75270.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8100000023841858
+      ocr_word_mean_confidence_index: 0.761982138444305
+    legacy_id: v013
+  I4CZ75304:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75304
+      total_pages: 580
+      volume_number: 47
+      volume_pages_bdrc_intro: 2
+    order: 47
+    base_file: I4CZ75304.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.7561018896385417
+    legacy_id: v047
+  I4CZ75301:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75301
+      total_pages: 541
+      volume_number: 44
+      volume_pages_bdrc_intro: 2
+    order: 44
+    base_file: I4CZ75301.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8399999737739563
+      ocr_word_mean_confidence_index: 0.785447467059053
+    legacy_id: v044
+  I4CZ75338:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75338
+      total_pages: 682
+      volume_number: 81
+      volume_pages_bdrc_intro: 2
+    order: 81
+    base_file: I4CZ75338.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.749186735101069
+    legacy_id: v081
+  I4CZ75333:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75333
       total_pages: 735
-      order: 76
-      base_file: 5F49.txt
-statistics: {}
-quality: {}
+      volume_number: 76
+      volume_pages_bdrc_intro: 2
+    order: 76
+    base_file: I4CZ75333.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8199999928474426
+      ocr_word_mean_confidence_index: 0.7839708144979135
+    legacy_id: v076
+  I4CZ75309:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75309
+      total_pages: 528
+      volume_number: 52
+      volume_pages_bdrc_intro: 2
+    order: 52
+    base_file: I4CZ75309.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.752556447842007
+    legacy_id: v052
+  I4CZ75316:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75316
+      total_pages: 645
+      volume_number: 59
+      volume_pages_bdrc_intro: 2
+    order: 59
+    base_file: I4CZ75316.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.7162936890331743
+    legacy_id: v059
+  I4CZ75258:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75258
+      total_pages: 513
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I4CZ75258.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7599999904632568
+      ocr_word_mean_confidence_index: 0.7340964952148114
+    legacy_id: v001
+  I4CZ75319:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75319
+      total_pages: 512
+      volume_number: 62
+      volume_pages_bdrc_intro: 2
+    order: 62
+    base_file: I4CZ75319.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8500000238418579
+      ocr_word_mean_confidence_index: 0.7918821193039727
+    legacy_id: v062
+  I4CZ75306:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75306
+      total_pages: 528
+      volume_number: 49
+      volume_pages_bdrc_intro: 2
+    order: 49
+    base_file: I4CZ75306.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.75
+      ocr_word_mean_confidence_index: 0.7106819301760546
+    legacy_id: v049
+  I4CZ75336:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75336
+      total_pages: 638
+      volume_number: 79
+      volume_pages_bdrc_intro: 2
+    order: 79
+    base_file: I4CZ75336.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.747020194072591
+    legacy_id: v079
+  I4CZ75327:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75327
+      total_pages: 542
+      volume_number: 70
+      volume_pages_bdrc_intro: 2
+    order: 70
+    base_file: I4CZ75327.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7200000286102295
+      ocr_word_mean_confidence_index: 0.6867775774782092
+    legacy_id: v070
+  I4CZ75286:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75286
+      total_pages: 575
+      volume_number: 29
+      volume_pages_bdrc_intro: 2
+    order: 29
+    base_file: I4CZ75286.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7887737575603924
+    legacy_id: v029
+  I4CZ75267:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75267
+      total_pages: 596
+      volume_number: 10
+      volume_pages_bdrc_intro: 2
+    order: 10
+    base_file: I4CZ75267.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7200000286102295
+      ocr_word_mean_confidence_index: 0.6910459247377557
+    legacy_id: v010
+  I4CZ75325:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75325
+      total_pages: 80
+      volume_number: 68
+      volume_pages_bdrc_intro: 2
+    order: 68
+    base_file: I4CZ75325.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7799999713897705
+      ocr_word_mean_confidence_index: 0.7427403700075785
+    legacy_id: v068
+  I4CZ75278:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75278
+      total_pages: 898
+      volume_number: 21
+      volume_pages_bdrc_intro: 2
+    order: 21
+    base_file: I4CZ75278.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7900000214576721
+      ocr_word_mean_confidence_index: 0.7501475789146854
+    legacy_id: v021
+  I4CZ75317:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ75317
+      total_pages: 439
+      volume_number: 60
+      volume_pages_bdrc_intro: 2
+    order: 60
+    base_file: I4CZ75317.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.774951651507993
+    legacy_id: v060
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
